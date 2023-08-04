@@ -6,3 +6,6 @@ p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
 }
+.main-poster{
+    max-width: 35%;
+}
