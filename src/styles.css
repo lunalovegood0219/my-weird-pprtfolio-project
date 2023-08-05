@@ -56,7 +56,7 @@ p {
 }
 @media (max-width: 600px){
     h1{
-        font-size: 45px;
+        font-size: 34px;
     }
     .desktop-heading{
         display: none;
