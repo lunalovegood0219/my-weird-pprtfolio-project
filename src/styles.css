@@ -51,9 +51,10 @@ p {
 .small-img{
     width: 25px;
 }
-.only-for-small-screen{
+.only-for-small-screen, .family-summary-second-small-d{
     display: none;
 }
+
 @media (max-width: 600px){
     h1{
         font-size: 34px;
@@ -91,5 +92,9 @@ p {
     }
     .family-summary-second-img{
         display: none;
+    }
+    .family-summary-second-small-d{
+        display: block;
+        
     }
 }
