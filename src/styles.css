@@ -58,6 +58,9 @@ p {
     h1{
         font-size: 34px;
     }
+    .desktop-heading{
+        display: none;
+    }
     .heading-paragraph{
         margin-right: 50px;
         margin-left: 50px;
