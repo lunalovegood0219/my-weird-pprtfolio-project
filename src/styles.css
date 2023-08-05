@@ -56,7 +56,7 @@ p {
 }
 @media (max-width: 600px){
     h1{
-        font-size: 24px;
+        font-size: 34px;
     }
     .heading-paragraph{
         margin-right: 50px;
@@ -72,7 +72,7 @@ p {
         font-size: small;
 
     }
-    .heading, .whole-summary{
+    .small-heading, .whole-summary{
         margin: 10px 30px;
     }
 }
