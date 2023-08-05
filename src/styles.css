@@ -15,18 +15,21 @@ body{
     border-radius: var(--border-radius);
 }
 .heading{
-    background: var(--primary-color);
-
+    margin-left: 5px;
+    margin-right: 5px;
+   
 }
 
 h1{
     font-family: 'Playfair Display SC', serif;
     font-weight: bold;
+    font-size: 96px;
 }
 p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
 }
+
 .main-poster{
     width: 450px;
     max-width: 50%;
@@ -45,9 +48,31 @@ p {
     margin: 50px 5px ;
     padding: 5px 1px;
 }
-@media (max-width:570px){
-    
-    .main-poster{
-        overflow-x: auto;
+.small-img{
+    width: 25px;
+}
+.only-for-small-screen{
+    display: none;
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 24px;
+    }
+    .heading-paragraph{
+        margin-right: 50px;
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    .main-poster, .describtion{
+        display: none;
+    }
+    .only-for-small-screen{
+        display: block;
+        text-align: center;
+        font-size: small;
+
+    }
+    .heading, .whole-summary{
+        margin: 10px 105px;
     }
 }
