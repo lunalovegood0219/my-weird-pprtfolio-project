@@ -78,4 +78,8 @@ p {
     .small-heading, .whole-summary{
         margin: 10px 30px;
     }
+    .small-img{
+        width: 250px;
+        margin-bottom: 10px;
+    }
 }
