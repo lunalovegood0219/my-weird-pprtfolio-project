@@ -79,11 +79,8 @@ p {
         margin: 10px 30px;
     }
     .small-img{
-        width: 360px;
+        width: 300px;
         margin-bottom: 10px;
     }
-    .small-img-position{
-        position: relative;
-        left: -23px;
-    }
+    
 }
