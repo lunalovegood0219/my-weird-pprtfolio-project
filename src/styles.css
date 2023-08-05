@@ -95,6 +95,8 @@ p {
     }
     .family-summary-second-small-d{
         display: block;
-        
+        width: 300px;
+        position: relative;
+        right: -83px;
     }
 }
