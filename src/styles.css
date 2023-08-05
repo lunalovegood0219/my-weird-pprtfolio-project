@@ -56,7 +56,7 @@ p {
 }
 @media (max-width: 600px){
     h1{
-        font-size: 34px;
+        font-size: 45px;
     }
     .desktop-heading{
         display: none;
@@ -79,8 +79,11 @@ p {
         margin: 10px 30px;
     }
     .small-img{
-        width: 250px;
-        max-width: 100%;
+        width: 360px;
         margin-bottom: 10px;
+    }
+    .small-img-position{
+        position: relative;
+        left: -23px;
     }
 }
