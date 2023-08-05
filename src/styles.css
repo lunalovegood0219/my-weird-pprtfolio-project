@@ -82,5 +82,8 @@ p {
         width: 300px;
         margin-bottom: 10px;
     }
-    
+    .small-img-position{
+        position: relative;
+        left: -20px;
+    }
 }
