@@ -80,6 +80,7 @@ p {
     }
     .small-img{
         width: 250px;
+        max-width: 100%;
         margin-bottom: 10px;
     }
 }
