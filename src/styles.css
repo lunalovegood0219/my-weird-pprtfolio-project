@@ -86,4 +86,10 @@ p {
         position: relative;
         left: -14px;
     }
+    .small-screen-summary{
+        text-align: center;
+    }
+    .family-summary-second-img{
+        display: none;
+    }
 }
