@@ -8,14 +8,12 @@ body{
 
 :root{
     --primary-color:#739297;
+    --family-summary-color: #23454F;
+    --footer-color:#212529;
     --border-radius: 4px;
+    --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
-
-.rest-of-page{
-    background: #fff;
-    border-radius: var(--border-radius);
-}
 .heading{
     margin-left: 5px;
     margin-right: 5px;
@@ -43,15 +41,20 @@ p {
     max-width: 50%;
 }
 .whole-summary-m-p{
-    background: #fff;
+    background: var(--family-summary-color);
     margin: 50px 5px ;
     padding: 50px 1px;
+    box-shadow: var(--box-shadow);
 }
 .small-img{
     width: 25px;
 }
 .only-for-small-screen, .small-screen-family-summary{
     display: none;
+}
+footer{
+    background: var(--footer-color);
+    padding-top: 30px;
 }
 @media (max-width: 600px){
     h1{
