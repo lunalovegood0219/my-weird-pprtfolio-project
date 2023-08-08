@@ -1,12 +1,11 @@
-
 body{
-    background: url("/images/background5.jpg");
-    backdrop-filter: blur(5px);
+    background: url("/images/background5-edit.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     background-attachment: fixed;
 }
+
 :root{
     --primary-color:#739297;
     --border-radius: 4px;
