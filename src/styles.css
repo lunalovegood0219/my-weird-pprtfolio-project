@@ -38,9 +38,6 @@ p {
     margin-left: 5px;
     margin-right: 30px;
 }
-.describtion{
-    margin-right: 5px;
-}
 .family-summary{
     width: 200px;
     max-width: 50%;
@@ -53,26 +50,20 @@ p {
 .small-img{
     width: 25px;
 }
-.only-for-small-screen, .family-summary-second-small-d{
+.only-for-small-screen, .small-screen-family-summary{
     display: none;
-}
-.bg-dark-1{
-    background: #739297;
 }
 @media (max-width: 600px){
     h1{
-        font-size: 34px;
+        font-size: 40px;
     }
-    .desktop-heading{
+    .desktop-heading, .main-poster, .desktop-family-summary{
         display: none;
     }
     .heading-paragraph{
         margin-right: 50px;
         margin-left: 50px;
         font-size: 12px;
-    }
-    .main-poster, .describtion{
-        display: none;
     }
     .only-for-small-screen{
         display: block;
@@ -86,20 +77,12 @@ p {
         width: 300px;
         margin-bottom: 10px;
     }
-    .small-img-position{
-        position: relative;
-        left: -14px;
-    }
-    .small-screen-summary{
+    .whol-family-summary{
         text-align: center;
+        display: block;
     }
     .family-summary-second-img{
         display: none;
     }
-    .family-summary-second-small-d{
-        display: block;
-        width: 300px;
-        position: relative;
-        right: -72px;
-    }
+    
 }
