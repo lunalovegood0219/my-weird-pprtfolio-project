@@ -35,10 +35,18 @@ p {
     max-width: 50%;
     margin-left: 5px;
     margin-right: 30px;
+    box-shadow: var(--box-shadow);
+}
+.describtion{
+box-shadow: var(--box-shadow);
+margin-right: 6px;
+color: #fff;
+opacity: 0.8;
 }
 .family-summary{
     width: 200px;
     max-width: 50%;
+    box-shadow: var(--box-shadow);
 }
 .whole-summary-m-p{
     background: var(--family-summary-color);
