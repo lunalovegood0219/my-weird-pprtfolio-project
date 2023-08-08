@@ -42,10 +42,10 @@ p {
     width: 200px;
     max-width: 50%;
 }
-.whole-summary{
+.whole-summary-m-p{
     background: #fff;
     margin: 50px 5px ;
-    padding: 5px 1px;
+    padding: 50px 1px;
 }
 .small-img{
     width: 25px;
@@ -57,7 +57,10 @@ p {
     h1{
         font-size: 40px;
     }
-    .desktop-heading, .main-poster, .desktop-family-summary{
+    .desktop-heading, .main-poster{
+        display: none;
+    }
+    .desktop-family-summary{
         display: none;
     }
     .heading-paragraph{
@@ -79,10 +82,10 @@ p {
     }
     .whol-family-summary{
         text-align: center;
+        
+    }
+    .small-screen-family-summary{
+        margin: 50px;
         display: block;
     }
-    .family-summary-second-img{
-        display: none;
-    }
-    
 }
