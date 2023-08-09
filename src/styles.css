@@ -13,18 +13,22 @@ body{
     --border-radius: 4px;
     --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/fonts/RubikWetPaint-Regular.ttf') format('truetype');
+}
 
 .heading{
     margin-left: 5px;
     margin-right: 5px;
    
 }
-
-h1{
-    font-family: 'Playfair Display SC', serif;
-    font-weight: bold;
-    font-size: 96px;
+.desktop-h1,.small-screen-h1{
+     font-family: 'CustomFont', 'Zeyada', cursive;
+    font-size: 76px;
+    
 }
+
 p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
