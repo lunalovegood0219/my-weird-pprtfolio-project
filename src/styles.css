@@ -10,6 +10,8 @@ body{
     --primary-color:#739297;
     --family-summary-color: #23454F;
     --footer-color:#212529;
+    --paragraph-background-color: #466168;
+    --paragraph-color: #29231b8c;
     --border-radius: 4px;
     --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
@@ -40,7 +42,8 @@ p {
 .describtion{
 box-shadow: var(--box-shadow);
 margin-right: 6px;
-color: #fff;
+color: var(--paragraph-color);
+background: var(--paragraph-background-color);
 opacity: 0.8;
 }
 .family-summary{
@@ -49,7 +52,7 @@ opacity: 0.8;
     box-shadow: var(--box-shadow);
 }
 .whole-summary-m-p{
-    background: var(--family-summary-color);
+    background: var(--paragraph-background-color);
     margin: 50px 5px ;
     padding: 50px 1px;
     box-shadow: var(--box-shadow);
