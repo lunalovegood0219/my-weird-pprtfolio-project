@@ -4,6 +4,13 @@
     --paragraph-background-color: #bebdbd;
     --paragraph-color: #29231b8c;
 }
+body{
+    background: url("/images/background5-edit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
 footer{
     background: var(--footer-color);
     padding-top: 30px;
