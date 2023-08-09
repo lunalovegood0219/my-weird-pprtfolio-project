@@ -72,8 +72,8 @@ footer{
 }
 @media (max-width: 600px){
     h1{
-        font-size: 30px;
-        margin-right: 10px;
+        font-size: 20px;
+       
     }
     .desktop-heading, .main-poster{
         display: none;
