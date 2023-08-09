@@ -14,6 +14,7 @@ h1{
     text-transform: capitalize;
     font-size: 60px;
 }
+
 li{
     list-style: none;
     margin: 0px auto;
@@ -35,4 +36,26 @@ img{
 footer{
     background: var(--footer-color);
     padding-top: 30px;
+}
+.small-screen-last-pic,.small-screen-cast-list{
+    display: none;
+}
+@media(max-width: 570px){
+    .small-screen-cast-list{
+        display: block;
+    }
+    .desktop-cast-list{
+        display: none;
+    }
+    .small-screen-ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 24px;
+    }
+    .small-screen-last-pic{
+        display: flex;
+        justify-content: start;
+        margin-left: 10px;
+    }
+
 }
