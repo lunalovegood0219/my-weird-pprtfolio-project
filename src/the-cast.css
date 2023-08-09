@@ -57,7 +57,7 @@ footer{
     .small-screen-last-pic{
         display: flex;
         justify-content: start;
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
 }
