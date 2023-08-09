@@ -9,6 +9,11 @@ body{
     height: 100%;
     background-attachment: fixed;
 }
+h1{
+    padding-top: 60px;
+    text-transform: capitalize;
+    font-size: 60px;
+}
 li{
     list-style: none;
     margin: 0px auto;
