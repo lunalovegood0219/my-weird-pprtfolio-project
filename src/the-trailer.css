@@ -1,0 +1,10 @@
+:root{
+    --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    --footer-color:#212529;
+    --paragraph-background-color: #bebdbd;
+    --paragraph-color: #29231b8c;
+}
+footer{
+    background: var(--footer-color);
+    padding-top: 30px;
+}
