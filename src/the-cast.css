@@ -1,5 +1,6 @@
 :root{
     --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    --footer-color:#212529;
 }
 body{
     background: url("/images/background5-edit.jpg");
@@ -7,7 +8,6 @@ body{
     background-size: cover;
     height: 100%;
     background-attachment: fixed;
-    padding: 50px;
 }
 li{
     list-style: none;
@@ -26,4 +26,8 @@ p{
 img{
     box-shadow: var(--box-shadow);
     border-radius: 3px;
+}
+footer{
+    background: var(--footer-color);
+    padding-top: 30px;
 }
