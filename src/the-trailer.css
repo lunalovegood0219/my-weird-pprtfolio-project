@@ -53,6 +53,9 @@ iframe{
 @media(max-width: 570px){
     iframe{
         margin: 150px 10px;
-
+    }
+    .footer-section{
+        display: flex;
+        flex-wrap: wrap;
     }
 }

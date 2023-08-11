@@ -125,4 +125,8 @@ footer{
         margin: 50px;
         display: block;
     }
+    .footer-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
