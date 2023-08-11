@@ -134,7 +134,8 @@ footer{
         flex-wrap: wrap;
     }
     .small-version-poster{
-        margin: 0px auto;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
