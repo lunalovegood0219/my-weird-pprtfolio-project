@@ -117,6 +117,9 @@ footer{
         margin: 10px 30px;
     }
     .small-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 350px;
         margin-bottom: 10px;
         box-shadow: var(--box-shadow);
