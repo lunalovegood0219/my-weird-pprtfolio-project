@@ -69,6 +69,22 @@ footer{
     background: var(--footer-color);
     padding-top: 30px;
 }
+.footer-describtion{
+    color: #6C63FF;
+    margin: 3px 15px;
+}
+.mail-btn{
+    margin-left: 15px;
+    border-color: #6C63FF;
+}
+.footer-section{
+    display: flex;
+    
+}
+.btn-outline-primary{
+    color: #6C63FF;
+}
+
 @media (max-width: 570px){
     h1{
         font-size: 20px;

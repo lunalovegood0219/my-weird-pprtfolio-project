@@ -16,6 +16,21 @@ footer{
     padding-top: 30px;
     
 }
+.footer-describtion{
+    color: #6C63FF;
+    margin: 3px 15px;
+}
+.mail-btn{
+    margin-left: 15px;
+    border-color: #6C63FF;
+}
+.footer-section{
+    display: flex;
+    
+}
+.btn-outline-primary{
+    color: #6C63FF;
+}
 iframe{
     margin-top: 120px;
     box-shadow: var(--box-shadow);
