@@ -109,6 +109,13 @@ footer{
     .desktop-heading, .main-poster{
         display: none;
     }
+    .geners{
+       padding-right: 40px;
+    }
+    .gener-space{
+        margin-top: 5px;
+        text-align: center;
+    }
     .desktop-family-summary{
         display: none;
     }
