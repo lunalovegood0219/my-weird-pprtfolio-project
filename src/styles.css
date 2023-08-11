@@ -46,6 +46,9 @@ color: var(--paragraph-color);
 background: var(--paragraph-background-color);
 opacity: 0.8;
 }
+.gener-h6{
+    margin-left: 4px;
+}
 .family-summary{
     width: 200px;
     max-width: 50%;
