@@ -30,6 +30,9 @@ body{
     font-size: 76px;
     text-transform: capitalize;
 }
+.atou-type{
+    color: var(--different-color);
+}
 
 p {
     font-family: "Poppins", sans-serif;
