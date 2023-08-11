@@ -180,7 +180,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-    .atou-type-desktop{
-        display: none;
+    .atou-type{
+       text-shadow: 2px 2px 4px var(--different-color);;
     }
 }
