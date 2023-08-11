@@ -164,6 +164,9 @@ footer{
         margin: 50px;
         display: block;
     }
+    .family-summary-paragraph{
+        margin-top: 10px;
+    }
     .footer-section{
         display: flex;
         flex-wrap: wrap;
