@@ -41,6 +41,15 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+.navigation-btns a {
+    margin: 20px;
+    text-transform: capitalize;
+    border-color: #6C63FF;
+}
+.nav-btns:hover{
+    background: #6C63FF;
+    border-color: #6C63FF;
+}
 @media(max-width: 570px){
     iframe{
         margin: 150px 10px;

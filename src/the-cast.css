@@ -38,7 +38,13 @@ img{
 .navigation-btns a {
     margin: 20px;
     text-transform: capitalize;
+    border-color: #6C63FF;
 }
+.nav-btns:hover{
+    background: #6C63FF;
+    border-color: #6C63FF;
+}
+
 footer{
     background: var(--footer-color);
     padding-top: 30px;

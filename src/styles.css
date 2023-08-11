@@ -73,6 +73,10 @@ footer{
     color: #6C63FF;
     margin: 3px 15px;
 }
+.mail-btn:hover{
+    background: #6C63FF;
+    border-color: #6C63FF;
+}
 .mail-btn{
     margin-left: 15px;
     border-color: #6C63FF;
