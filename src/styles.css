@@ -182,4 +182,9 @@ footer{
     .atou-type{
        text-shadow: 2px 2px 4px #fff;
     }
+    .synopsis-h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
