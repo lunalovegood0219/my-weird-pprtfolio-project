@@ -121,6 +121,11 @@ footer{
         margin-bottom: 10px;
         box-shadow: var(--box-shadow);
     }
+    .small-version-poster{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .whole-family-summary,.whole-summary-m-p{
         text-align: center;
         
@@ -133,9 +138,5 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-    .small-version-poster{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
 }
