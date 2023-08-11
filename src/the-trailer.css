@@ -11,6 +11,9 @@ body{
     height: 100%;
     background-attachment: fixed;
 }
+main{
+    padding-bottom: 35px;
+}
 footer{
     background: var(--footer-color);
     padding-top: 30px;
