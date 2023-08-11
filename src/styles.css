@@ -53,13 +53,22 @@ opacity: 0.8;
     margin-left: 15px;
     color: black;
     opacity: 0.8;
+    
 }
 .gener-space{
     padding: 2px;
     text-align: center;
+    border: 1px solid #6C63FF;
+    color: #6C63FF;
+    border-radius: 20px;
+    margin-right: 5px;
+    font-weight: bold;
 }
 .poster-summary{
     color: black;
+}
+.bold-part-of-paragraph{
+    color: #6C63FF;
 }
 .family-summary{
     width: 200px;
