@@ -19,9 +19,16 @@ footer{
 iframe{
     margin-top: 120px;
     box-shadow: var(--box-shadow);
+    border-radius: 4px;
 }
 .video-container{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media(max-width: 570px){
+    iframe{
+        margin: 230px 10px;
+
+    }
 }
