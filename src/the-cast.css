@@ -35,6 +35,10 @@ img{
     box-shadow: var(--box-shadow);
     border-radius: 3px;
 }
+.navigation-btns a {
+    margin: 20px;
+    text-transform: capitalize;
+}
 footer{
     background: var(--footer-color);
     padding-top: 30px;
