@@ -54,6 +54,10 @@ opacity: 0.8;
     color: black;
     opacity: 0.8;
 }
+.gener-space{
+    padding: 2px;
+    text-align: center;
+}
 .poster-summary{
     color: black;
 }
