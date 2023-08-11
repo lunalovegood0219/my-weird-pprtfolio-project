@@ -4,6 +4,9 @@
     --paragraph-background-color: #bebdbd;
     --paragraph-color: #29231b8c;
 }
+h1{
+    font-family:'Zeyada','Vina Sans','Bricolage Grotesque', sans-serif;
+}
 body{
     background: url("/images/background5-edit.jpg");
     background-repeat: no-repeat;

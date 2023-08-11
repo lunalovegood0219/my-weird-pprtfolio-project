@@ -26,7 +26,7 @@ body{
     color: black;
 }
 .desktop-h1,.small-screen-h1{
-     font-family: 'CustomFont', 'Zeyada', cursive;
+     font-family:'Zeyada','Vina Sans','Bricolage Grotesque', sans-serif;
     font-size: 76px;
     text-transform: capitalize;
 }
