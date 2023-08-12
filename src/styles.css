@@ -124,8 +124,8 @@ footer{
 }
 
 @media (max-width: 570px){
-    body{
-        margin-left: 10px;
+    main{
+        max-width: 80%;
     }
     h1{
         font-size: 20px;
