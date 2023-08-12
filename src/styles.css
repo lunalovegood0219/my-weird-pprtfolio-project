@@ -125,11 +125,14 @@ footer{
 
 @media (max-width: 570px){
     body{
-        padding: 15px;
+        padding: 12px;
     }
     h1{
         font-size: 20px;
         text-shadow: 2px 2px 4px #fff;
+    }
+    .haunting-h1{
+        margin-right: 10px;
     }
     .desktop-heading, .main-poster{
         display: none;
