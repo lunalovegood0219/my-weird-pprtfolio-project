@@ -125,7 +125,7 @@ footer{
 
 @media (max-width: 570px){
     main, footer{
-        margin-left: 6px;
+        margin-left: 7px;
     }
     h1{
         font-size: 20px;
@@ -192,6 +192,9 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    footer{
+        padding: 7px;
     }
     
 }
