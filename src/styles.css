@@ -184,6 +184,7 @@ footer{
     .footer-section{
         display: flex;
         flex-wrap: wrap;
+        padding: 20px;
     }
     .atou-type{
        text-shadow: 2px 2px 4px #fff;
@@ -192,9 +193,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    footer{
-        padding: 30px;
     }
     
 }
