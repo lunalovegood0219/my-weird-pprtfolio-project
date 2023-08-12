@@ -124,6 +124,9 @@ footer{
 }
 
 @media (max-width: 570px){
+    body{
+        padding: 15px;
+    }
     h1{
         font-size: 20px;
         text-shadow: 2px 2px 4px #fff;
