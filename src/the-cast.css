@@ -90,5 +90,6 @@ footer{
     .footer-section{
         display: flex;
         flex-wrap: wrap;
+        padding: 20px;
     }
 }
